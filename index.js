@@ -3,9 +3,9 @@ document.addEventListener("DOMContentLoaded", () => {
   const providers = [
     { name: "Водоканал", img: "./images/vodokonal.png", code: "water" },
     { name: "Теплосеть", img: "./images/teploset.png", code: "heating" },
-    { name: "Тазалык", img: "./images/tazalyk.png", code: "sewerage" },
+    { name: "ЭкоЛогист", img: "./images/tazalyk.png", code: "sewerage" },
     { name: "Электричество", img: "./images/electricity.png", code: "electricity" },
-    { name: "Газпром", img: "./images/gazprom.png", code: "gas" },
+    { name: "Газпром Кыргызстан", img: "./images/gazprom.png", code: "gas" },
   ];
   const API_URL = "https://ners.billing.kg/ws/public/api/v1/clients/temp/estate";
   const username = "admin-fr";
